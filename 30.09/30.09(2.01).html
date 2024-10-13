@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Зачетная книжка</title>
+</head>
+<body>
+    <h1>Зачетная книжка</h1>
+    <form action="thank_you.html" method="post">
+        <label for="subject">Дисциплина:</label><br>
+        <select id="subject" name="subject">
+            <option value="math">Математика</option>
+            <option value="physics">Физика</option>
+            <option value="chemistry">Химия</option>
+            <option value="literature">Литература</option>
+        </select><br><br>
+
+        <label>Класс:</label><br>
+        <input type="radio" id="grade5" name="grade" value="5">
+        <label for="grade5">5</label><br>
+        <input type="radio" id="grade4" name="grade" value="4">
+        <label for="grade4">4</label><br>
+        <input type="radio" id="grade3" name="grade" value="3">
+        <label for="grade3">3</label><br>
+        <input type="radio" id="grade2" name="grade" value="2">
+        <label for="grade2">2</label><br><br>
+
+        <label>Дополнительные курсы:</label><br>
+        <input type="checkbox" id="course1" name="courses" value="english">
+        <label for="course1">Английский язык</label><br>
+        <input type="checkbox" id="course2" name="courses" value="programming">
+        <label for="course2">Программирование</label><br>
+        <input type="checkbox" id="course3" name="courses" value="art">
+        <label for="course3">Искусство</label><br><br>
+
+        <label for="semester">Семестр:</label><br>
+        <select id="semester" name="semester">
+            <option value="spring">Весенний</option>
+            <option value="fall">Осенний</option>
+        </select><br><br>
+
+        <input type="submit" value="Отправить">
+    </form>
+</body>
+</html>

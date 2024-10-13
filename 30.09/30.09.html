@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма</title>
+</head>
+<body>
+    <form action="/submit" method="post">
+        
+        <label for="comment">Комментарий:</label><br>
+        <textarea id="comment" name="comment" rows="4" cols="50"></textarea><br><br>
+
+       
+        <label for="birthdate">Дата рождения:</label><br>
+        <input type="date" id="birthdate" name="birthdate"><br><br>
+
+        
+        <label for="birthmonth">Месяц рождения:</label><br>
+        <input type="month" id="birthmonth" name="birthmonth"><br><br>
+
+        
+        <label for="birthyear">Год рождения:</label><br>
+        <select id="birthyear" name="birthyear">
+            <option value="">Выберите год</option>
+            <option value="2000">2000</option>
+            <option value="2001">2001</option>
+            <option value="2002">2002</option>
+            <option value="2003">2003</option>
+            <option value="2004">2004</option>
+            <option value="2005">2005</option>
+
+        </select><br><br>
+
+       >
+        <a href="https://example.com">Перейти на другой документ</a><br><br>
+
+        
+        <input type="submit" value="Отправить">
+    </form>
+</body>
+</html>
