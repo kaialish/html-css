@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .gradient-border {
+    width: 400px;
+    margin: 50px auto 0;
+  }
+  
+  .gradient-border img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border: 15px solid;
+    border-image: linear-gradient(135deg, #857667 38%, #FDD6B9 65%);
+    border-image-slice: 1;
+  }
+  
+  

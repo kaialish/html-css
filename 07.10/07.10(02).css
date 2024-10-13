@@ -1,0 +1,24 @@
+* { box-sizing: border-box; }
+
+.caption-border {
+    width: 400px;
+    margin: 50px auto 0;
+    border: 5px solid #e52357;
+    background: white;
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.caption-border img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.caption-border figcaption {
+    padding: 10px;
+    color: white;
+    background: #e52357;
+    text-align: center;
+    text-transform: uppercase;
+}
