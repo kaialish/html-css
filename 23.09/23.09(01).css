@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+header {
+  background-color: #9a4242;
+  color: white;
+  padding: 18px;
+  text-align: center;
+}
+main{
+  color: black;
+  padding: 20px;
+  background-color: #df9a9a;
+  min-height: 600px; /*минимальная высота для основной части*/
+}
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 98.7%;
+}
+h3 {
+  font-style: italic, bold
+}

@@ -1,0 +1,26 @@
+#navigation {
+    position: relative;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+#navigation a:hover + .submenu,
+.submenu:hover {
+    display: block;
+}
+
+.submenu a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.submenu a:hover {
+    background-color: #ddd;
+}

@@ -1,0 +1,138 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #d0a590;
+}
+
+#main_square {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #EDC7B7;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 100%;
+}
+
+#head {
+  background-color: #AC3B61;
+  color: #EDF5E1;
+  padding: 20px;
+  text-align: center;
+}
+
+.navigation {
+  background-color: #592939;
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  display: inline-block;
+  position: relative;
+}
+
+.navigation a {
+  margin-right: auto;
+  padding: 10px;
+  font: 15px Arial;
+  text-decoration: none;
+  color: #343845;
+  border: 1px solid #ddd;
+  background-color: white;
+
+
+}
+
+.nav-item a:hover {
+  background-color: #ddd;
+} 
+
+.submenu {
+  display: none;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  top: 160%; 
+  left: 0;
+  width: 300%;
+}
+
+.nav-item:hover .submenu {
+  display: block;
+}
+
+.submenu a {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: black;
+  width: 500px;
+}
+
+.submenu a:hover {
+  background-color: #ddd;
+}
+
+#info {
+  padding: auto;
+  margin-left: auto;
+  text-indent: 30px;
+  text-align: center;
+  height: 700px;
+  color: #AC3B61
+}
+
+.product, .reviews, .news {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.product h2, .reviews p, .news p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.reviews p, .news p {
+  font-size: 16px;
+  color: #555;
+}
+
+.post {
+  margin: 20px 0;
+}
+
+#footer {
+  background-color: #123C69;
+  color: #EDC7B7;
+  text-align: center;
+  padding: 10px;
+  clear: both;
+  position: relative;
+  height: 65px;
+}
+
+.contacts {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  text-align: right;
+}
+
+.contacts p {
+  margin: 5px 0;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 18px;
+}
